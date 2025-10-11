@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro Simples</h1>
+        <form id="cadastroForm" onsubmit="return redirecionarSeValido(event)">
+            <div class="input-group">
+
+                
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" id="email" name="email" required oninput="validarEmail()" />
+                <p id="mensagemErro" class="mensagem-status"></p>
+
+
+                <label for="senha"><strong>Senha:</strong></label>
+                <input type="password" id="senha" name="senha" required oninput="validarSenha()" />
+                <p id="mensagemErroSenha" class="mensagem-status"></p>
+
+                <label for="confirmarSenha"><strong>Confirmar senha:</strong></label>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" required oninput="validarSenha()" />
+                <p id="mensagemErroConfirmarSenha" class="mensagem-status"></p>
+
+
+            </div>
+            <button class= "btn "type="submit" id="btnEnviar" disabled> Enviar Cadastro</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
