@@ -1,0 +1,62 @@
+
+.cabecalho-blog nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-blog {
+    background-color: rgb(112, 16, 56);
+    border:  solid indianred;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+.cabecalho-blog ul {
+    list-style: none;
+    display: flex;
+  gap: 25px;
+}
+.cabecalho-blog a {
+    text-decoration: none;
+    color: inherit;
+     
+}
+.layout h3{
+    color: green;
+    font-family: monospace;
+    text-align: center;
+}
+.layout h1{
+    font-family: Arial;
+    font-size: 30px;
+    background-color:darkorange;
+    text-align: center;
+    border-radius: 2px;
+}
+.layout p{
+    color:goldenrod;
+    text-align: center;
+    
+}
+.layout{
+    background-color: #4f0e5c;
+}
+.layout img {
+    display: block;      /* faz a imagem ser um bloco */
+    margin: 0 auto;      /* centraliza horizontalmente */
+    max-width: 100%;     /* opcional, para a imagem não ultrapassar o container */
+    height: auto;        /* mantém a proporção da imagem */
+}
+.layout button{
+    display: block;      /* faz a imagem ser um bloco */
+    margin: 0 auto;      /* centraliza horizontalmente */
+         /* opcional, para a imagem não ultrapassar o container */
+    height: auto;   
+    font-family: Impact;
+    font-size: 30px;
+
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-blog {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 25px;
+    background-color: chocolate;
+    border: 2px solid indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-blog ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho-blog a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cabecalho-blog h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(204, 24, 24);
+}
+
+/* Layout Principal */
+.principal-blog .layout-blog {
+    display: flex;
+    gap: 20px;
+}
+
+.layout-blog img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.container p {
+    background-color: ghostwhite;
+    font-family: sans-serif;
+}
+
+.post {
+    flex: 3;
+}
+
+.barra-lateral {
+    flex: 1;
+    background-color: rgb(117, 103, 23);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(226, 100, 10, 0.4);
+    
+}
